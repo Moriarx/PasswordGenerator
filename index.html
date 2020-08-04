@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassGen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/164add3b85.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="result-container">
+            <span id="result"></span>
+            <button class="btn" id="copy">
+                <i class="fas fa-copy"></i>
+            </button>
+        </div>
+        <form id="passwordGeneratorForm" class="settings">
+            <div class="setting">
+                <label for="characterAmountNumber">Password length</label>
+                <input type="range" min="4" max="35" value="10" id="characterAmountRange">
+                <input type="number"  min="4" max="35" value="10" id="characterAmountNumber">
+            </div>
+            <div class="setting">
+                <label for="uppercase">Duże litery</label>
+                <input type="checkbox" id="uppercase" checked>
+            </div>
+            <div class="setting">
+                <label for="lowercasee">Małe litery</label>
+                <input type="checkbox" id="lowercase" checked>
+            </div>
+            <div class="setting">
+                <label for="numbers">Cyfry</label>
+                <input type="checkbox" id="numbers" checked>
+            </div>
+            <div class="setting">
+                <label for="specials">Znaki specjalne</label>
+                <input type="checkbox" id="specials" checked>
+            </div>
+            <button type="submit" class="btn btn-large" id="generate">
+                Generuj hasło
+            </button>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
