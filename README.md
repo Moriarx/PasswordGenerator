@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Password Generator
 
 ![Project Image]()
@@ -23,3 +24,9 @@ This simple password generator lets your create any password from length of 4 to
 [<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/>][]
 [<img align="left" alt="Javascript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"/>][]
 
+=======
+Password Generator
+This application is a random password generator which generates random password from 4-35 characters long. The sophistication level of password can is
+determined by clicking checkboxes. Password can generate: numbers, small letters, capital letters, special characters based on user's preferences. If you
+would like to copy password press copy buttom to copy it to clipboard - the message should pop up when clicked. To generate password press Generuj.
+>>>>>>> a2248a2324fa6f576759ebcbf1a3d22ab140ec45
