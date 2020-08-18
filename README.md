@@ -1,6 +1,6 @@
 # Password Generator
 
-![Project Image](https://nfhost.me/image/zUhW1)
+[![Passgenerator.png](https://i.nfhost.me/images/2020/08/18/Passgenerator.png)](https://nfhost.me/image/zUhW1)
 
 ---
 
