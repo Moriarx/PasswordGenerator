@@ -46,7 +46,7 @@ clipBoardCopy.addEventListener('click', () => {
     textarea.select();
     document.execCommand('copy');
     textarea.remove();
-    alert('Skopiowano hasło do schowka!');
+    alert('Password copied to clipboard!');
 });
 
 //Funkcja, która generuje hasło. 
