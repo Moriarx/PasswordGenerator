@@ -14,4 +14,4 @@ This simple password generator lets your create any password from length of 4 to
 [<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/>][web]
 [<img align="left" alt="Javascript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"/>][web]
 
-[web][https://github.com/Moriarx/PasswordGenerator]
+[web]:https://github.com/Moriarx/PasswordGenerator
